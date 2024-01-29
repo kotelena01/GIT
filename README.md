@@ -1,3 +1,3 @@
-# Homework 1 
-## Elena Kot
-### Linux terminal (GitBash) 
+# ___Homework 1___ 
+## ___Elena Kot___
+### ___Linux terminal (GitBash)___ 
