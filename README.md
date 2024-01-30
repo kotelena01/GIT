@@ -1,5 +1,7 @@
 ___Linux terminal (GitBash) commands___ 
+
 ___Homework 1___
+
 ___Elena Kot___ 
 
 
@@ -34,10 +36,13 @@ __vim Mercury.txt__
 __cd ..__
 1)  переместить любые 2 файла, которые вы создали, в любую другую папку в рамках одной директории:  
 __mv Meine.txt Scorpions__
+
 __mv Mercury.txt Taylor.json Queen__
+
 __mv McCartney.txt Beatles__  
 // если перемещать файлы за пределы текущей директории, то этот способ не работает, нужно указывать весь путь перемещения:
 __mv /D/2024/GIT/Music/European/Mulyavin.json /D/2024/GIT/Music/Russian__
+
 __mv /D/2024/GIT/Music/European/Rihanna.txt /D/2024/GIT/Music/American__
 1)  скопировать любые 2 файла, которые вы создали, в любую другую папку 
 cp 1.txt 2.txt dir_1
