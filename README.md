@@ -1,12 +1,9 @@
 #___Linux terminal (GitBash) commands___ 
-
 ___Homework 1___
-
 ___Elena Kot___ 
 
-
 1) Посмотреть где я:
-__$ pwd__
+__pwd__
 __/d/2024/GIT/Music__
 3) Создать папку:  
 __mkdir Music__                                   
