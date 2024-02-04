@@ -100,31 +100,34 @@ Taylor.json (END)__
 1)  вывести дату и время 
 __date__
 --------------------------------------------------------------------------------------
-"http://162.55.220.72:5005/get_method?name=kotlena&age=38"
-["kotlena","38"]
+Отправить http запрос на сервер:
+    http://162.55.220.72:5005/terminal-hw-request :
 
+curl "http://162.55.220.72:5005/get_method?name=kotlena&age=40"
+["kotlena","40"]
 
+Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13:
 #!/bin/bash
-
-mkdir scriptdir
-cd scriptdir
-mkdir script1dir script2dir script3dir
-cd script1dir
-touch file1.txt file2.txt file3.txt 1.json 2.json
-mkdir dir1 dir2 dir3
+mkdir Music
+cd Music
+mkdir Russian European American
+cd European
+touch  Meine.txt Mercury.txt McCartney.txt Taylor.json 
+mkdir Queen Beatles Scorpions
 ls -la
-mv file1.txt file2.txt dir1 это внутри скрипта  user@HOME-PC MINGW64 /d/Linux/group_23
-$ ./firstscript.txt
+mv Meine.txt Scorpions
+mv Mercury.txt Taylor.json Queen
+mv McCartney.txt Beatles
+ls -la
+./firstscript.txt
+
+>user@HOME-PC MINGW64 /d/2024/GIT/Music/Music/European/Music/European/Music/European (main)
+$ ls -la
 total 4
-drwxr-xr-x 1 user 197121 0 Oct  4 18:43 .
-drwxr-xr-x 1 user 197121 0 Oct  4 18:43 ..
--rw-r--r-- 1 user 197121 0 Oct  4 18:43 1.json
--rw-r--r-- 1 user 197121 0 Oct  4 18:43 2.json
-drwxr-xr-x 1 user 197121 0 Oct  4 18:43 dir1
-drwxr-xr-x 1 user 197121 0 Oct  4 18:43 dir2
-drwxr-xr-x 1 user 197121 0 Oct  4 18:43 dir3
--rw-r--r-- 1 user 197121 0 Oct  4 18:43 file1.txt
--rw-r--r-- 1 user 197121 0 Oct  4 18:43 file2.txt
--rw-r--r-- 1 user 197121 0 Oct  4 18:43 file3.txt
+drwxr-xr-x 1 user 197121 0 Feb  4 22:54 ./
+drwxr-xr-x 1 user 197121 0 Feb  4 22:54 ../
+drwxr-xr-x 1 user 197121 0 Feb  4 22:54 Beatles/
+drwxr-xr-x 1 user 197121 0 Feb  4 22:54 Queen/
+drwxr-xr-x 1 user 197121 0 Feb  4 22:54 Scorpions/
 
 
