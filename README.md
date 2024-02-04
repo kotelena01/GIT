@@ -39,28 +39,28 @@ __cd ..__
 // выйти из папки на два уровня выше __cd ../..__
 // выйти из папки на три уровня выше __cd ../../..__ и так далее.
 1)  переместить любые 2 файла, которые вы создали, в любую другую папку в рамках одной директории:  
-__mv Meine.txt Scorpions__
+>__mv Meine.txt Scorpions__
 
       __mv Mercury.txt Taylor.json Queen__
 
      __mv McCartney.txt Beatles__  
 // если перемещать файлы за пределы текущей директории, то этот способ не работает, нужно указывать весь путь перемещения:
-__mv /D/2024/GIT/Music/European/Mulyavin.json /D/2024/GIT/Music/Russian__
+>__mv /D/2024/GIT/Music/European/Mulyavin.json /D/2024/GIT/Music/Russian__
 
      __mv /D/2024/GIT/Music/European/Rihanna.txt /D/2024/GIT/Music/American__
 1)  скопировать любые 2 файла, которые вы создали, в любую другую папку 
 __cp Mercury.txt Taylor.json /D/2024/GIT/Music__
 1)  Найти файл по имени:  
 __$ find . -name Mercury.txt__
-__./Music/European/Queen/Mercury.txt__
+>__./Music/European/Queen/Mercury.txt__
 __./Music/Mercury.txt__
 
 1)  просмотреть содержимое в реальном времени: 
 __tail -f Mercury.txt__ 
-__Freddie Mercury was the leader of the musical group Queen.__
+>__Freddie Mercury was the leader of the musical group Queen.__
 1)  вывести несколько __первых__ строк из текстового файла  
 __head -n3 Taylor.json__ где n это нужное количество строк
-__123
+>__123
 456
 789
 10 11 12
@@ -68,7 +68,7 @@ __123
       
 1)  вывести несколько __последних__ строк из текстового файла   
 __tail -n5 Taylor.json__
-__19 20 21
+>__19 20 21
 22 23 24
 25 26 27
 28 29 30
@@ -76,7 +76,7 @@ __19 20 21
 
       //17 и 18 может быть и без буквы n
 __tail -6 Taylor.json__
-__16 17 18
+>__16 17 18
 19 20 21
 22 23 24
 25 26 27
@@ -84,7 +84,7 @@ __16 17 18
 31 32 33__
 1)  просмотреть содержимое __длинного__ файла 
 __less Taylor.json__
-__123
+>__123
 456
 789
 10 11 12
@@ -98,7 +98,7 @@ __123
 Taylor.json (END)__
 //для выхода из утилиты и возвращения к командной строке терминала нажать q, ZZ
 1)  вывести дату и время 
-__date__
+>__date__
 --------------------------------------------------------------------------------------
 Отправить http запрос на сервер:
     http://162.55.220.72:5005/terminal-hw-request :
@@ -111,7 +111,7 @@ curl "http://162.55.220.72:5005/get_method?name=kotlena&age=40"
 =======
 Написать скрипт:
 >>>>>>> ee9e25563b8a752ee8c513b2b11c8c52da51f75b
-#!/bin/bash
+>#!/bin/bash
 mkdir Music
 cd Music
 mkdir Russian European American
