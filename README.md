@@ -39,15 +39,9 @@ __cd ..__
 // выйти из папки на два уровня выше __cd ../..__
 // выйти из папки на три уровня выше __cd ../../..__ и так далее.
 1)  переместить любые 2 файла, которые вы создали, в любую другую папку в рамках одной директории:  
->__mv Meine.txt Scorpions__
-
-     > __mv Mercury.txt Taylor.json Queen__
-
-     >__mv McCartney.txt Beatles__  
+>__mv Meine.txt Scorpions__ __mv Mercury.txt Taylor.json Queen__ __mv McCartney.txt Beatles__  
 // если перемещать файлы за пределы текущей директории, то этот способ не работает, нужно указывать весь путь перемещения:
->__mv /D/2024/GIT/Music/European/Mulyavin.json /D/2024/GIT/Music/Russian__
-
-     >__mv /D/2024/GIT/Music/European/Rihanna.txt /D/2024/GIT/Music/American__
+>__mv /D/2024/GIT/Music/European/Mulyavin.json /D/2024/GIT/Music/Russian__ __mv /D/2024/GIT/Music/European/Rihanna.txt /D/2024/GIT/Music/American__
 1)  скопировать любые 2 файла, которые вы создали, в любую другую папку 
 >__cp Mercury.txt Taylor.json /D/2024/GIT/Music__
 1)  Найти файл по имени:  
