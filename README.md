@@ -106,7 +106,11 @@ __date__
 curl "http://162.55.220.72:5005/get_method?name=kotlena&age=40"
 ["kotlena","40"]
 
+<<<<<<< HEAD
 Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13:
+=======
+Написать скрипт:
+>>>>>>> ee9e25563b8a752ee8c513b2b11c8c52da51f75b
 #!/bin/bash
 mkdir Music
 cd Music
@@ -129,5 +133,10 @@ drwxr-xr-x 1 user 197121 0 Feb  4 22:54 ../
 drwxr-xr-x 1 user 197121 0 Feb  4 22:54 Beatles/
 drwxr-xr-x 1 user 197121 0 Feb  4 22:54 Queen/
 drwxr-xr-x 1 user 197121 0 Feb  4 22:54 Scorpions/
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> ee9e25563b8a752ee8c513b2b11c8c52da51f75b
 
 
