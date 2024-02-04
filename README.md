@@ -9,7 +9,7 @@ ___Elena Kot___
    
    __pwd__
 
-    __/d/2024/GIT/Music__
+    >__/d/2024/GIT/Music__
 1) Создать папку:  
 __mkdir Music__                                   
 1) Зайти в папку: 
@@ -41,19 +41,19 @@ __cd ..__
 1)  переместить любые 2 файла, которые вы создали, в любую другую папку в рамках одной директории:  
 >__mv Meine.txt Scorpions__
 
-      __mv Mercury.txt Taylor.json Queen__
+     > __mv Mercury.txt Taylor.json Queen__
 
-     __mv McCartney.txt Beatles__  
+     >__mv McCartney.txt Beatles__  
 // если перемещать файлы за пределы текущей директории, то этот способ не работает, нужно указывать весь путь перемещения:
 >__mv /D/2024/GIT/Music/European/Mulyavin.json /D/2024/GIT/Music/Russian__
 
-     __mv /D/2024/GIT/Music/European/Rihanna.txt /D/2024/GIT/Music/American__
+     >__mv /D/2024/GIT/Music/European/Rihanna.txt /D/2024/GIT/Music/American__
 1)  скопировать любые 2 файла, которые вы создали, в любую другую папку 
-__cp Mercury.txt Taylor.json /D/2024/GIT/Music__
+>__cp Mercury.txt Taylor.json /D/2024/GIT/Music__
 1)  Найти файл по имени:  
 __$ find . -name Mercury.txt__
 >__./Music/European/Queen/Mercury.txt__
-__./Music/Mercury.txt__
+>__./Music/Mercury.txt__
 
 1)  просмотреть содержимое в реальном времени: 
 __tail -f Mercury.txt__ 
@@ -106,11 +106,8 @@ Taylor.json (END)__
 curl "http://162.55.220.72:5005/get_method?name=kotlena&age=40"
 ["kotlena","40"]
 
-<<<<<<< HEAD
-Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13:
-=======
+
 Написать скрипт:
->>>>>>> ee9e25563b8a752ee8c513b2b11c8c52da51f75b
 >#!/bin/bash
 mkdir Music
 cd Music
@@ -133,10 +130,6 @@ drwxr-xr-x 1 user 197121 0 Feb  4 22:54 ../
 drwxr-xr-x 1 user 197121 0 Feb  4 22:54 Beatles/
 drwxr-xr-x 1 user 197121 0 Feb  4 22:54 Queen/
 drwxr-xr-x 1 user 197121 0 Feb  4 22:54 Scorpions/
-<<<<<<< HEAD
-=======
 
-
->>>>>>> ee9e25563b8a752ee8c513b2b11c8c52da51f75b
 
 
